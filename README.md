@@ -1,7 +1,7 @@
 # Spring-React-NodeJS
         Boilerplate for using Java spring with React in NodeJS
 
-#Maven process:
+# Maven process:
     - Creates build file for REACTJS
     - Starts server at http://localhost:8080
     - Starts client at http://localhost:3000
