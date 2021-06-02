@@ -9,4 +9,4 @@
     
 # Commands
     - Compile all: mvn clean install package
-    - Run all: spring-boot:run
+    - Run all: mvn spring-boot:run
