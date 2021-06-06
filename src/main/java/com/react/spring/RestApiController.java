@@ -8,6 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class RestApiController {
 
+    GetProperties properties = new GetProperties();
+
 
     @GetMapping("/api/array")
     public String apiJSONArray() {
@@ -21,11 +23,9 @@ public class RestApiController {
 
 
             obj.put("hello", "world");
+            obj.put("fake_api_key",properties.getPropValues());
 
             arr.put(obj);
-            arr.put(obj);
-            arr.put(obj);
-
         }catch(Exception e){
 
             System.out.println(e);
